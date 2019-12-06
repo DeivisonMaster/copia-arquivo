@@ -37,8 +37,8 @@ public class Agendamento {
 	public void agendamentoCopiaArquivo4() {
 		System.out.println("executando tarefa agendada");
 		
-		File de   = new File("C:\\Users\\deivison.matos\\Desktop\\diretorio-a\\arquivo.txt");
-		File para = new File("C:\\Users\\deivison.matos\\Downloads\\_arquivos\\arquivo " + new Random().nextInt() + ".txt");
+		File de   = new File("");
+		File para = new File("" + new Random().nextInt() + ".extensão");
 		
 		copia(de, para);
 	}
